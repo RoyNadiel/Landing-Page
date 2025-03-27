@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');  
+body{
+    margin: 0;
+    font-family: 'Roboto';
+}
+header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px 0;
+}
+#header-logo{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    list-style: none;
+    color: #ddd;
+    margin: 0;
+}
+
+.first-view{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    gap: 50px;
+    background-color: #1f2937;
+}
+.first-view-text{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first-view-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+p{
+    font-size: 18px;    
+    color: #bbb;
+    margin: 0;
+}
+button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #25f;
+    color: white;
+    text-align: center;
+    cursor: pointer
+}
+img{
+    width: 500px;
+    height: 250px;
+}
+
+.second-view{
+    text-align: center;
+    padding: 40px 200px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.illustration{
+    height: 150px;
+    border:3px solid #03a;
+    flex-grow: 0;
+    flex-basis: auto;
+    border-radius: 10px;
+    padding: 10px;    
+}
+#subtext{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #666;
+}
+h2{
+    font-size: 2.5rem;
+}
+
+
+
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    padding: 5% 25%;
+    margin: 0;
+}
+h3{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #555;
+    margin: 0;
+}
+h6{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    margin: 5% 0 0 0;
+}
+
+
+
+
+.extra{
+    padding: 50px 250px;    
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.extra-content{
+    background-color: #27f;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+h4{
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+}
+#extra-button{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #27f;
+}
+footer{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
